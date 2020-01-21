@@ -1,0 +1,11 @@
+{
+  "name": "dungeoncrash",
+  "version": "0.0.1",
+  "description": "First Roguelike game, written mostly in Python.",
+  "main": "main.py",
+  "scripts": {
+    "test": "py tests.py"
+  },
+  "author": "@jryankendall",
+  "license": "MIT"
+}

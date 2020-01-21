@@ -1,0 +1,17 @@
+{ 
+    "shortname": "cuirass",
+    "fullname": "plate cuirass",
+    "description" : "Sturdy heavy metal plates, pounded into shape by an armorer to fit the body, and held together with screws and belts. At minimum, consists of a breastplate, backplate, and faulds. Provides unmatched protection to the wearer, but the moving plates are noisy and the rigid nature of the pieces can hinder movement.",
+    "id": "body_001",
+    "intrinsics": {
+        "weight": 12,
+        "enc": 3,
+        "coverage": ["thorax", "abdomen"],
+        "value": 200,
+        "prot": 3,
+        "layer": 3
+    },
+    "material": "metal",
+    "adjectives": ["fluted", "trimmed", "embellished", "painted", "polished", "blackened", "dull"],
+    "flags": ["noisy", "hard", "conductive"]
+}

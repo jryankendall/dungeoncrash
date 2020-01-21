@@ -1,0 +1,17 @@
+{ 
+    "shortname": "hounskull",
+    "fullname": "open hounskull",
+    "description": "A bulky, intimidating helmet composed of a a bascinet and visor slightly resembling a hound's face or a beak. Has surprisingly good ventilation for a full helmet. The visor is up.",
+    "id": "helm_001",
+    "intrinsics": {
+        "weight": 5,
+        "enc": 3,
+        "coverage": ["head"],
+        "value": 100,
+        "prot": 3,
+        "layer": 3
+    },
+    "material": "metal",
+    "adjectives": ["plumed", "decorated", "painted"],
+    "flags": ["morph", "usable", "fullhelm", "hard"]
+}

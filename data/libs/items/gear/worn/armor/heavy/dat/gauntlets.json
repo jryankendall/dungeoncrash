@@ -1,0 +1,17 @@
+{ 
+    "shortname": "gauntlets",
+    "fullname": "gauntlets",
+    "description" : "Hard metal hand protection. Or knuckledusters for the more cerebral types. Will help you keep your fingers unsevered.",
+    "id": "gloves_001",
+    "intrinsics": {
+        "weight": 3,
+        "enc": 3,
+        "coverage": ["hands"],
+        "value": 50,
+        "prot": 3,
+        "layer": 3
+    },
+    "material": "metal",
+    "adjectives": ["polished", "gilded", "engraved", "scarred", "painted", "spiked"],
+    "flags": ["conductive", "hard"]
+}

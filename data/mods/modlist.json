@@ -1,0 +1,10 @@
+[
+    {
+        "fullname": "Sample Mod",
+        "version": "6.9",
+        "dir": "/sample",
+        "description": "Example mod entry.",
+        "author": "jryankendall",
+        "manifest": "manifest.json"
+    }
+]

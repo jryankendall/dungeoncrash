@@ -1,4 +1,45 @@
-[{
-    "name": "iron",
-    "rarity": "common"
-}]
+[   {
+        "name": "iron",
+        "rarity": 1,
+        "modifiers": {
+            "weight": 0.9,
+            "power": 1,
+            "dura": 0.9,
+            "value": 0.9
+        },
+        "flags": ["coldiron", "weak:corrosion"]
+    },
+    {
+        "name": "steel",
+        "rarity": 0,
+        "modifiers": {
+            "weight": 1,
+            "power": 1,
+            "dura": 1,
+            "value": 1
+        },
+        "flags": ["baseline"]
+    },
+    {
+        "name": "silver",
+        "rarity": 2,
+        "modifiers": {
+            "weight": 1.2,
+            "power": 0.9,
+            "dura": 1,
+            "value": 1.5
+        },
+        "flags": ["silver", "resist:chaos"]
+    },
+    {
+        "name": "gold",
+        "rarity": 3,
+        "modifiers": {
+            "weight": 2.5,
+            "power": 1,
+            "dura": 1.1,
+            "value": 3.5
+        },
+        "flags": ["precious", "eyecatching"]
+    }
+]

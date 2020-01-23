@@ -1,0 +1,17 @@
+{
+    "name": "arming sword",
+    "type": "sword",
+    "subtype": "knight_sword",
+    "description": "Common one-handed sword.",
+    "stats": {
+        "size": 3,
+        "weight": 3,
+        "dmg": {
+            "num": 5,
+            "types": ["cutting", "piercing"]
+        },
+        "skill": 2
+    },
+    "verbs": ["slash", "stab"],
+    "flags": ["light"]
+}

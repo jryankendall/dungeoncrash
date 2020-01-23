@@ -1,0 +1,17 @@
+{
+    "name": "longsword",
+    "type": "sword",
+    "subtype": "large_sword",
+    "description": "Solid, balanced two-handed sword.",
+    "stats": {
+        "size": 5,
+        "weight": 6,
+        "dmg": {
+            "num": 7,
+            "types": ["cutting", "piercing"]
+        },
+        "skill": 4
+    },
+    "verbs": ["slash", "stab"],
+    "flags": ["defensive", "invert"]
+}

@@ -6,7 +6,7 @@
     "intrinsics": {
         "weight": 12,
         "enc": 3,
-        "coverage": ["thorax", "abdomen"],
+        "coverage": ["body"],
         "value": 200,
         "prot": 3,
         "layer": 3

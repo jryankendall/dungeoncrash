@@ -1,0 +1,166 @@
+[
+    {
+        "shortname": "gauntlets",
+        "fullname": "gauntlets",
+        "description": "Hard metal hand protection. Or knuckledusters for the more cerebral types. Will help you keep your fingers unsevered.",
+        "id": "gloves_001",
+        "intrinsics": {
+            "weight": 3,
+            "enc": 3,
+            "coverage": [
+                "hands"
+            ],
+            "value": 50,
+            "prot": 3,
+            "layer": 3
+        },
+        "material": "metal",
+        "adjectives": [
+            "polished",
+            "gilded",
+            "engraved",
+            "scarred",
+            "painted",
+            "spiked"
+        ],
+        "flags": [
+            "conductive",
+            "hard"
+        ]
+    },
+    {
+        "shortname": "hounskull",
+        "fullname": "open hounskull",
+        "description": "A bulky, intimidating helmet composed of a a bascinet and visor slightly resembling a hound's face or a beak. Has surprisingly good ventilation for a full helmet. The visor is up.",
+        "id": "helm_001",
+        "intrinsics": {
+            "weight": 5,
+            "enc": 3,
+            "coverage": [
+                "head"
+            ],
+            "value": 100,
+            "prot": 3,
+            "layer": 3
+        },
+        "material": "metal",
+        "adjectives": [
+            "plumed",
+            "decorated",
+            "painted"
+        ],
+        "flags": [
+            "morph",
+            "usable",
+            "fullhelm",
+            "hard"
+        ]
+    },
+    {
+        "shortname": "hounskull",
+        "fullname": "closed hounskull",
+        "description": "A bulky, intimidating helmet composed of a a bascinet and visor slightly resembling a hound's face or a beak. Has surprisingly good ventilation for a full helmet. The visor is down.",
+        "id": "helm_001a",
+        "intrinsics": {
+            "weight": 5,
+            "enc": 4,
+            "coverage": [
+                "head",
+                "face"
+            ],
+            "value": 100,
+            "prot": 4,
+            "layer": 3
+        },
+        "material": "metal",
+        "adjectives": [
+            "plumed",
+            "decorated",
+            "painted"
+        ],
+        "flags": [
+            "morph",
+            "usable",
+            "fullhelm",
+            "hard",
+            "!pool"
+        ]
+    },
+    {
+        "shortname": "cuirass",
+        "fullname": "plate cuirass",
+        "description": "Sturdy heavy metal plates, pounded into shape by an armorer to fit the body, and held together with screws and belts. At minimum, consists of a breastplate, backplate, and faulds. Provides unmatched protection to the wearer, but the moving plates are noisy and the rigid nature of the pieces can hinder movement.",
+        "id": "body_001",
+        "intrinsics": {
+            "weight": 12,
+            "enc": 3,
+            "coverage": [
+                "body"
+            ],
+            "value": 200,
+            "prot": 3,
+            "layer": 3
+        },
+        "material": "metal",
+        "adjectives": [
+            "fluted",
+            "trimmed",
+            "embellished",
+            "painted",
+            "polished",
+            "blackened",
+            "dull"
+        ],
+        "flags": [
+            "noisy",
+            "hard",
+            "conductive"
+        ]
+    },
+    {
+        "shortname": "short name for item, doesn't have to be unique, may be seen by player",
+        "fullname": "Long Full Display Name, doesnt need to be unique. Seen by player",
+        "description": "f",
+        "id": "developer id, must be unique in category (which is grabbed from folder names)",
+        "intrinsics": {
+            "weight": "weight in arbitrary units",
+            "enc": "encumbrance value (effects TBD)",
+            "coverage": [
+                "areas covered. first in list is 'priority'. areas include but are not limited to Head, Face, Thorax, Abdomen, Arms, Hands, Legs, Feet"
+            ],
+            "value": "base cash value of this item",
+            "prot": "defensive stat of the armor (TBD)",
+            "layer": "where the armor is usually put depth-wise on the body. will range from -1 (not applicable), 0 (skin), 1 (bottom layer. gloves, boots, pants, shirts, gambesons, caps ), 2 (main layer. mail, under hoods, bracers.), 3 (over layer. plate, splint, brigandine, gauntlets, sabatons, greaves, leggings, helmets, hats), 4 (top, robe, surcoats, tabards, mantles, skirts)"
+        },
+        "material": "what the armor is mostly made of",
+        "adjectives": [
+            "array of descriptors that can prepend a generated item"
+        ],
+        "flags": [
+            "miscellaneous flags that give the item more properties. such as Noisy, Warm, Cool, Insulated, class/race restrictions, exclusivity"
+        ]
+    },
+    {
+        "shortname": "short name for item, doesn't have to be unique, may be seen by player",
+        "fullname": "Long Full Display Name, doesnt need to be unique. Seen by player",
+        "description": "f",
+        "id": "developer id, must be unique in category (which is grabbed from folder names)",
+        "intrinsics": {
+            "weight": "weight in arbitrary units",
+            "enc": "encumbrance value (effects TBD)",
+            "coverage": [
+                "areas covered. first in list is 'priority'. areas include but are not limited to Head, Face, Thorax, Abdomen, Arms, Hands, Legs, Feet"
+            ],
+            "value": "base cash value of this item",
+            "prot": "defensive stat of the armor (TBD)",
+            "layer": "where the armor is usually put depth-wise on the body. will range from -1 (not applicable), 0 (skin), 1 (bottom layer. gloves, boots, pants, shirts, gambesons, caps ), 2 (main layer. mail, under hoods, bracers.), 3 (over layer. plate, splint, brigandine, gauntlets, sabatons, greaves, leggings, helmets, hats), 4 (top, robe, surcoats, tabards, mantles, skirts)"
+        },
+        "material": "what the armor is mostly made of",
+        "adjectives": [
+            "array of descriptors that can prepend a generated item"
+        ],
+        "flags": [
+            "miscellaneous flags that give the item more properties. such as Noisy, Warm, Cool, Insulated, class/race restrictions, exclusivity"
+        ]
+    }
+]

@@ -2,6 +2,7 @@
     {
         "shortname": "gauntlets",
         "fullname": "gauntlets",
+        "category": "items/gear/worn/armor/heavy/",
         "description": "Hard metal hand protection. Or knuckledusters for the more cerebral types. Will help you keep your fingers unsevered.",
         "id": "gloves_001",
         "intrinsics": {
@@ -31,7 +32,8 @@
     {
         "shortname": "hounskull",
         "fullname": "open hounskull",
-        "description": "A bulky, intimidating helmet composed of a a bascinet and visor slightly resembling a hound's face or a beak. Has surprisingly good ventilation for a full helmet. The visor is up.",
+        "category": "items/gear/worn/armor/heavy/",
+        "description": "A bulky, intimidating helmet composed of a a bascinet and visor slightly resembling a hound's face or a beak. Has surprisingly good ventilation for a full helmet.",
         "id": "helm_001",
         "intrinsics": {
             "weight": 5,
@@ -50,45 +52,14 @@
             "painted"
         ],
         "flags": [
-            "morph",
-            "usable",
             "fullhelm",
             "hard"
         ]
     },
     {
-        "shortname": "hounskull",
-        "fullname": "closed hounskull",
-        "description": "A bulky, intimidating helmet composed of a a bascinet and visor slightly resembling a hound's face or a beak. Has surprisingly good ventilation for a full helmet. The visor is down.",
-        "id": "helm_001a",
-        "intrinsics": {
-            "weight": 5,
-            "enc": 4,
-            "coverage": [
-                "head",
-                "face"
-            ],
-            "value": 100,
-            "prot": 4,
-            "layer": 3
-        },
-        "material": "metal",
-        "adjectives": [
-            "plumed",
-            "decorated",
-            "painted"
-        ],
-        "flags": [
-            "morph",
-            "usable",
-            "fullhelm",
-            "hard",
-            "!pool"
-        ]
-    },
-    {
         "shortname": "cuirass",
         "fullname": "plate cuirass",
+        "category": "items/gear/worn/armor/heavy/",
         "description": "Sturdy heavy metal plates, pounded into shape by an armorer to fit the body, and held together with screws and belts. At minimum, consists of a breastplate, backplate, and faulds. Provides unmatched protection to the wearer, but the moving plates are noisy and the rigid nature of the pieces can hinder movement.",
         "id": "body_001",
         "intrinsics": {
@@ -121,6 +92,7 @@
         "shortname": "short name for item, doesn't have to be unique, may be seen by player",
         "fullname": "Long Full Display Name, doesnt need to be unique. Seen by player",
         "description": "f",
+        "category": "items/gear/worn/armor/heavy/",
         "id": "developer id, must be unique in category (which is grabbed from folder names)",
         "intrinsics": {
             "weight": "weight in arbitrary units",
@@ -144,6 +116,7 @@
         "shortname": "short name for item, doesn't have to be unique, may be seen by player",
         "fullname": "Long Full Display Name, doesnt need to be unique. Seen by player",
         "description": "f",
+        "category": "items/gear/worn/armor/heavy/",
         "id": "developer id, must be unique in category (which is grabbed from folder names)",
         "intrinsics": {
             "weight": "weight in arbitrary units",

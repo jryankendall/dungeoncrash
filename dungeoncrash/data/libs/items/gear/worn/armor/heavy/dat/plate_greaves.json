@@ -2,6 +2,7 @@
     "shortname": "short name for item, doesn't have to be unique, may be seen by player",
     "fullname": "Long Full Display Name, doesnt need to be unique. Seen by player",
     "description" : "f",
+    "category": "",
     "id": "developer id, must be unique in category (which is grabbed from folder names)",
     "intrinsics": {
         "weight": "weight in arbitrary units",
